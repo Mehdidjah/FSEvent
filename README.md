@@ -275,11 +275,3 @@ config :file_system, :fs_inotify,
 config :file_system, :fs_mac,
   executable_file: "/path/to/mac_listener"
 ```
-
-## License
-
-Apache 2.0
-
-## Author
-
-Created and developed by mehdi. All code, documentation, and features are original work.
