@@ -13,8 +13,6 @@ defmodule FileSystem do
   - Platform-specific backends handle native file system monitoring
   - Events flow through filtering, throttling, and processing pipelines
   - Subscribers receive events via message passing
-
-  Created by mehdi.
   """
 
   @doc """
