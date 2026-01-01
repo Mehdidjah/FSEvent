@@ -16,7 +16,7 @@ defmodule FileSystem.Backend do
   - Windows: `FileSystem.Backends.FSWindows` (uses FileSystemWatcher)
   - Fallback: `FileSystem.Backends.FSPoll` (polling-based, works everywhere)
 
-  Created by mehdi.
+
   """
 
   @callback bootstrap() :: :ok | {:error, atom()}
